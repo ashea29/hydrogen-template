@@ -15,8 +15,8 @@
   "prettier": "@shopify/prettier-config",
   "dependencies": {
     "@netlify/edge-functions": "^2.10.0",
-    "@netlify/remix-edge-adapter": "^3.4.0",
-    "@netlify/remix-runtime": "^2.3.0",
+    "@netlify/remix-edge-adapter": "^3.4.2",
+    "@netlify/remix-runtime": "^2.3.1",
     "@remix-run/react": "^2.11.2",
     "@shopify/hydrogen": "^2024.7.4",
     "graphql": "^16.6.0",
@@ -41,6 +41,7 @@
     "prettier": "^2.8.4",
     "typescript": "^5.2.2",
     "vite": "^5.4.3",
+    "vite-plugin-cjs-interop": "^2.1.4",
     "vite-tsconfig-paths": "^5.0.1"
   },
   "engines": {
