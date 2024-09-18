@@ -16,7 +16,7 @@ export default defineConfig({
       },
     }),
     netlifyPlugin(),
-    tsconfigPaths(),
+    tsconfigPaths()
   ],
   build: {
     // Allow a strict Content-Security-Policy
@@ -35,7 +35,7 @@ export default defineConfig({
        * Include 'example-dep' in the array below.
        * @see https://vitejs.dev/config/dep-optimization-options
        */
-      include: [],
+      include: ['@remix-run/server-runtime', '@netlify/remix-runtime', '@remix-run/react'],
     },
   },
 });
